@@ -16,6 +16,18 @@ Scripts that run during Claude Code sessions:
 - `tool-call.sh` - Runs when tools are called
 - `user-prompt-submit.sh` - Runs when user submits a prompt
 
+### rules/
+Project rules, guidelines, and accumulated knowledge for Claude Code:
+
+- `README.md` - Overview of the rules system
+- `document-update-workflow.md` - Workflow for updating documentation
+- `coding-standards.md` - Coding standards and best practices
+- `troubleshooting.md` - Known issues and solutions
+- `patterns.md` - Implementation patterns and design decisions
+- `project-memory.md` - Project-specific knowledge and context
+
+**Important:** Claude Code should read these files at the start of each session to understand project conventions and accumulated knowledge.
+
 ## Documentation
 
 For more information about Claude Code configuration, visit:
